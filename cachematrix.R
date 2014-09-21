@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
     get <- function() x
     
     ## setInverse function
-    ## set im in makeCacheMatrix to work the same as solve function
+    ## Works the same as solve function, returning inverse results to im
     setInverse <- function(solve) im <<- solve
     
     ## getInverse function
